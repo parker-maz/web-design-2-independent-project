@@ -19,7 +19,8 @@
 }
 
 .pricing {
-  padding: 4rem 1rem;
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 .pricing ol {
