@@ -1,0 +1,85 @@
+.about {
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.abt {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.pfp {
+  max-width: 40%;
+}
+
+.about p {
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.pricing {
+  padding: 4rem 1rem;
+}
+
+.pricing ol {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.comm-card {
+  text-align: left;
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+h3 {
+  font-size: 4rem;
+  margin: .5rem .5rem 0 .75rem;
+  color: #fff;
+}
+
+.comm-card p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 1rem .7rem auto .75rem;
+}
+
+.comm-bg {
+  z-index: 0;
+}
+
+.comm-content {
+  position: absolute;
+  top: .5rem;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pricing ol {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .about {
+    max-width: 75%;
+  }
+
+  .about p {
+    font-size: 2rem;
+  }
+
+  .pricing ol {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+}
