@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <title>BlueSS Portfolio</title>
   <link href="css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/raq6kuu.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+  <link href="css/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alata&display=swap">
 </head>
 <body>
 
   <header>
-    <nav>
+    <nav role="navigation">
       <ul class="site-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="drawing.html">Illustrations</a></li>
@@ -19,23 +19,84 @@
     </nav>
 
     <div class="banner">
-      <img src="images/logo-color.svg" alt="BlueSS">
+      <div class="logo">
+        <img src="images/logo-color.svg" alt="BlueSS">
+      </div>
       <h1>Illustrator & Designer</h1>
     </div>
 
-    <nav class="page-nav">
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Contact</a></li>
+    <nav>
+      <ul class="page-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main role="main">
+    <section class="about">
+      <h2>ABOUT</h2>
+      <div class="abt">
+        <div class="pfp">
+          <img src="images/pfp.png" alt="Parker">
+        </div>
+        <p class="about-me">I'm a feelance digital artist and designer. I like the usual shtick, movies, TV, games, etc. and I like to draw these things a lot too. I'm an American and Canadian, from Nova Scotia, Canada, currently living in Ontario, Canada. I am currently open for commissions</p>
+      </div>
+    </section>
 
+    <section class="pricing">
+      <h2>COMMISSIONS & PRICES</h2>
+      <ol>
+        <li class="comm-card">
+          <img class="comm-bg" src="images/blue-square.svg" role="presentation">
+          <div class="comm-content">
+            <h3>$40</h3>
+            <p>Example text, descriptions and stuff.</p>
+          </div>
+        </li>
+        <li class="comm-card">
+          <img class="comm-bg" src="images/red-square.svg" role="presentation">
+          <div class="comm-content">
+            <h3>$80</h3>
+            <p>Example text, descriptions and stuff.</p>
+          </div>
+        </li>
+        <li class="comm-card">
+          <img class="comm-bg" src="images/yellow-square.svg" role="presentation">
+          <div class="comm-content">
+            <h3>$100</h3>
+            <p>Example text, descriptions and stuff.</p>
+          </div>
+        </li>
+        <li class="comm-card">
+          <img class="comm-bg" src="images/green-square.svg" role="presentation">
+          <div class="comm-content">
+            <h3>$160</h3>
+            <p>Example text, descriptions and stuff.</p>
+          </div>
+        </li>
+        <li class="comm-card">
+          <img class="comm-bg" src="images/blue-square.svg" role="presentation">
+          <div class="comm-content">
+            <h3>$200</h3>
+            <p>Example text, descriptions and stuff.</p>
+          </div>
+        </li>
+        <li class="comm-card">
+          <img class="comm-bg" src="images/red-square.svg" role="presentation">
+          <div class="comm-content">
+            <h3>$400</h3>
+            <p>Example text, descriptions and stuff.</p>
+          </div>
+        </li>
+      </ol>
 
+    </section>
 
+    <section class="contact">
+      <h2>CONTACT & LINKS</h2>
+    </section>
   </main>
 
 </body>
