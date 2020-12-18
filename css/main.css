@@ -14,8 +14,8 @@ html {
   top: -3em;
 }
 
-.skip-links:focus {
-  top: 0;
+.skip-links a:focus {
+  top: 1;
 }
 
 img {
@@ -147,7 +147,9 @@ footer {
 }
 
 .social {
+  margin: 0 auto;
   display: flex;
+  width: 85%;
   justify-content: space-around;
   padding-bottom: 1rem;
   flex-wrap: wrap;

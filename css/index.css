@@ -25,6 +25,11 @@
   grid-gap: 1rem;
 }
 
+.pricing {
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
 .comm-card {
   text-align: left;
   display: block;

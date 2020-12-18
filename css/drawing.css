@@ -1,0 +1,61 @@
+.art {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+#fan {
+  background-color: #14dd51;
+}
+
+#original {
+  background-color: #243f8f;
+}
+
+.org {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  width: 80%;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  padding-bottom: 3rem;
+}
+
+
+.titl h2 {
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .art {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+  }
+
+  .org {
+    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  }
+
+  .fart {
+    align-self: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .art {
+    grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+  }
+
+}
