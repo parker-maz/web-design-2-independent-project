@@ -1,11 +1,11 @@
 .about {
-  padding: 4rem 1rem;
-  margin: 0 auto;
+  padding: 4rem 0;
 }
 
 .abt {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -13,14 +13,14 @@
   max-width: 40%;
 }
 
-.about p {
-  width: 50%;
+.about-me {
+  width: 100%;
   font-size: 1.5rem;
 }
 
-.pricing {
+section {
+  width: 90%;
   margin: 0 auto;
-  max-width: 90%;
 }
 
 .pricing ol {
@@ -66,12 +66,16 @@ h3 {
     grid-template-rows: 1fr 1fr 1fr;
   }
 
+  .about-me {
+    max-width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-  .about {
-    max-width: 75%;
+  section {
+    max-width: 70em;
   }
 
   .about p {
