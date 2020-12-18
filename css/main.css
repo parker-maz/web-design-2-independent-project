@@ -14,7 +14,7 @@ html {
   top: -3em;
 }
 
-.skip-links a:focus {
+.skip-links:focus {
   top: 0;
 }
 
