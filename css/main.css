@@ -86,6 +86,10 @@ ol {
 }
 
 section {
+  width: 100%;
+}
+
+.titl {
   width: 90%;
   margin: 0 auto;
 }
@@ -114,7 +118,9 @@ h1 {
 }
 
 h2 {
+  padding-top: 2rem;
   width: 100%;
+  margin-top: 0;
   display: block;
   font-size: 3rem;
   color: #243f8f;
@@ -122,13 +128,13 @@ h2 {
 
 footer h2 {
   color: #fff;
-  margin: 4rem 0 2rem;
+  margin: 2rem 0 2rem;
 }
 
 footer {
   background-color: #2caaff;
   padding-bottom: 1rem;
-  margin-top: 4rem;
+  padding-top: 1em;
 }
 
 .social {
@@ -150,6 +156,15 @@ footer {
 
 small {
   color: #fff;
+}
+
+.about {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about .titl {
+  width: 100%;
 }
 
 @media only screen and (min-width: 33em) {

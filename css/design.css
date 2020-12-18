@@ -7,7 +7,65 @@
   grid-gap: 1rem;
 }
 
+ .other h2 {
+  color: #fff;
+}
+
+#album {
+  background-color: #ffc414;
+}
+
 .albm {
   width: 100%;
   border-radius: 4%;
+}
+
+.other {
+  background-color: #f92b6f;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.odder {
+  width: 80%;
+  margin: 0 auto 1rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .albums {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+  }
+
+  .other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .batman,
+  .joker,
+  .bane {
+    width: 30%;
+  }
+
+  .dew {
+    width: 100%;
+  }
+
+  .sod {
+    width: 45%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .albums {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
 }
